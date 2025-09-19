@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushal Kumar Rana | Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Kµรɦαℓ</a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section container">
+        <div class="hero-content">
+            <div class="profile-image-wrapper animate-zoom-in">
+                <img src="kittu.jpg" alt="Kushal Kumar Rana Profile" class="profile-image">
+            </div>
+            <h1 class="animate-slide-left">Hi, I'm Kushal Kumar Rana</h1>
+            <p class="hero-subtitle animate-fade-in-up">I am a passionate <span class="typed-text typed-text-highlight"></span></p>
+            <a href="#projects" class="cta-button animate-fade-in-up">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section container">
+        <h2 class="section-title animate-fade-in-up">About Me</h2>
+        <p class="about-description animate-fade-in-up">
+            Hello! I'm Kushal Kumar Rana, a dedicated Web Developer with a strong passion for creating beautiful,
+            responsive, and user-friendly websites. I specialize in front-end development, bringing designs
+            to life with clean code and innovative solutions. My journey in web development began with a curiosity
+            for how things work online, and it has evolved into a commitment to building engaging digital experiences.
+            I'm always eager to learn new technologies and improve my craft.
+        </p>
+        <div class="about-details animate-fade-in-up">
+            <p><strong>Education:</strong> Bachelor of Computer Applications</p>
+            <p><strong>Interests:</strong> UI/UX Design, Front-End Frameworks, Problem Solving</p>
+            <p><strong>Goal:</strong> To build impactful web applications that provide seamless user experiences.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section container">
+        <h2 class="section-title animate-fade-in-up">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item animate-on-scroll" data-delay="0.1">HTML5</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.2">CSS3</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.3">JavaScript (ES6+)</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.4">React.js</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.5">Node.js</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.6">Express.js</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.7">MongoDB</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.8">Git & GitHub</div>
+            <div class="skill-item animate-on-scroll" data-delay="0.9">Responsive Design</div>
+            <div class="skill-item animate-on-scroll" data-delay="1.0">UI/UX Principles</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section container">
+        <h2 class="section-title animate-fade-in-up">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card animate-on-scroll" data-delay="0.1">
+                <img src="project1.jpg" alt="Project 1: E-commerce Website" class="project-image">
+                <div class="project-info">
+                    <h3>E-commerce Store</h3>
+                    <p>A full-stack e-commerce platform with user authentication, product listings, and a shopping cart. Built with React, Node.js, and MongoDB.</p>
+                    <div class="project-tags">
+                        <span>#React</span><span>#Node.js</span><span>#MongoDB</span><span>#Stripe</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card animate-on-scroll" data-delay="0.3">
+                <img src="project2.jpg" alt="Project 2: Task Management App" class="project-image">
+                <div class="project-info">
+                    <h3>Task Manager App</h3>
+                    <p>A responsive task management application allowing users to create, update, and organize their daily tasks. Features drag-and-drop functionality.</p>
+                    <div class="project-tags">
+                        <span>#JavaScript</span><span>#HTML</span><span>#CSS</span><span>#Local Storage</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card animate-on-scroll" data-delay="0.5">
+                <img src="project3.jpg" alt="Project 3: Portfolio Website" class="project-image">
+                <div class="project-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>My own professional portfolio website, showcasing skills, projects, and contact information with modern animations.</p>
+                    <div class="project-tags">
+                        <span>#HTML5</span><span>#CSS3</span><span>#JavaScript</span><span>#Responsive</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section container">
+        <h2 class="section-title animate-fade-in-up">Get in Touch</h2>
+        <p class="contact-text animate-fade-in-up">Have a project in mind or just want to say hello? Feel free to reach out!</p>
+        <form id="contact-form" class="animate-fade-in-up">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kushal Kumar Rana. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
